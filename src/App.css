@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.status-badge {
+  font-size: 0.85rem;
+  margin-top: 2px;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Możesz zmienić czcionkę */
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e0f7fa, #bbdefb); /* Przykład delikatnego gradientu */
+  min-height: 100vh; /* Upewnij się, że tło pokrywa całą wysokość */
+  color: #333; /* Kolor tekstu */
+}
+
+.container {
+  background-color: #ffffff; /* Białe tło dla kontenera, żeby treść była czytelna */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+  max-width: 800px; /* Ogranicz szerokość kontenera */
+  margin: 30px auto; /* Wyśrodkuj kontener */
+}
